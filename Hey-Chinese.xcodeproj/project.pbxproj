@@ -14,6 +14,9 @@
 		F295E5691B1C2D3400637674 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F295E5681B1C2D3400637674 /* Images.xcassets */; };
 		F295E56C1B1C2D3400637674 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F295E56A1B1C2D3400637674 /* LaunchScreen.xib */; };
 		F295E5781B1C2D3400637674 /* Hey_ChineseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F295E5771B1C2D3400637674 /* Hey_ChineseTests.swift */; };
+		F295E5821B1C348E00637674 /* NoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F295E5811B1C348E00637674 /* NoteTableViewController.swift */; };
+		F295E5841B1C359000637674 /* LessonOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F295E5831B1C359000637674 /* LessonOneViewController.swift */; };
+		F295E5861B1C39E600637674 /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F295E5851B1C39E600637674 /* AddNoteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		F295E5711B1C2D3400637674 /* Hey-ChineseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hey-ChineseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F295E5761B1C2D3400637674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F295E5771B1C2D3400637674 /* Hey_ChineseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hey_ChineseTests.swift; sourceTree = "<group>"; };
+		F295E5811B1C348E00637674 /* NoteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteTableViewController.swift; sourceTree = "<group>"; };
+		F295E5831B1C359000637674 /* LessonOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonOneViewController.swift; sourceTree = "<group>"; };
+		F295E5851B1C39E600637674 /* AddNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNoteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,9 @@
 				F295E55E1B1C2D3400637674 /* AppDelegate.swift */,
 				F295E5631B1C2D3400637674 /* ViewController.swift */,
 				F295E5651B1C2D3400637674 /* Main.storyboard */,
+				F295E5851B1C39E600637674 /* AddNoteViewController.swift */,
+				F295E5831B1C359000637674 /* LessonOneViewController.swift */,
+				F295E5811B1C348E00637674 /* NoteTableViewController.swift */,
 				F295E5681B1C2D3400637674 /* Images.xcassets */,
 				F295E56A1B1C2D3400637674 /* LaunchScreen.xib */,
 				F295E5601B1C2D3400637674 /* Hey_Chinese.xcdatamodeld */,
@@ -216,8 +225,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F295E5641B1C2D3400637674 /* ViewController.swift in Sources */,
+				F295E5821B1C348E00637674 /* NoteTableViewController.swift in Sources */,
+				F295E5861B1C39E600637674 /* AddNoteViewController.swift in Sources */,
 				F295E5621B1C2D3400637674 /* Hey_Chinese.xcdatamodeld in Sources */,
 				F295E55F1B1C2D3400637674 /* AppDelegate.swift in Sources */,
+				F295E5841B1C359000637674 /* LessonOneViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +425,7 @@
 				F295E57D1B1C2D3400637674 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F295E57E1B1C2D3400637674 /* Build configuration list for PBXNativeTarget "Hey-ChineseTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +434,7 @@
 				F295E5801B1C2D3400637674 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

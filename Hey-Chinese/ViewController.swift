@@ -10,9 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var scrollView: UIScrollView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        scrollView.contentSize.height = 900
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +22,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func close(segue:UIStoryboardSegue){
+        println("close")
+    }
 }
 
